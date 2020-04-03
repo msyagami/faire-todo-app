@@ -1,12 +1,12 @@
 @font-face {
     font-family: "CharlieZonk";
-    src: url("/fonts/Charlie_Zonk/CharlieZonk-wamP.eot"); /* IE9 Compat Modes */
-    src: url("/fonts/Charlie_Zonk/CharlieZonk-wamP.eot#iefix") format("embedded-opentype"), /* IE6-IE8 */
-      url("/fonts/Charlie_Zonk/CharlieZonk-wamP.otf") format("opentype"), /* Open Type Font */
-      url("/fonts/Charlie_Zonk/CharlieZonk-wamP.svg") format("svg"), /* Legacy iOS */
-      url("/fonts/Charlie_Zonk/CharlieZonk-wamP.ttf") format("truetype"), /* Safari, Android, iOS */
-      url("/fonts/Charlie_Zonk/CharlieZonk-wamP.woff") format("woff"), /* Modern Browsers */
-      url("/fonts/Charlie_Zonk/CharlieZonk-wamP.woff2") format("woff2"); /* Modern Browsers */
+    src: url("https://msyagami.github.io/faire-web-app/fonts/Charlie_Zonk/CharlieZonk-wamP.eot"); /* IE9 Compat Modes */
+    src: url("https://msyagami.github.io/faire-web-app/fonts/Charlie_Zonk/CharlieZonk-wamP.eot#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("https://msyagami.github.io/faire-web-app/fonts/Charlie_Zonk/CharlieZonk-wamP.otf") format("opentype"), /* Open Type Font */
+      url("https://msyagami.github.io/faire-web-app/fonts/Charlie_Zonk/CharlieZonk-wamP.svg") format("svg"), /* Legacy iOS */
+      url("https://msyagami.github.io/faire-web-app/fonts/Charlie_Zonk/CharlieZonk-wamP.ttf") format("truetype"), /* Safari, Android, iOS */
+      url("https://msyagami.github.io/faire-web-app/fonts/Charlie_Zonk/CharlieZonk-wamP.woff") format("woff"), /* Modern Browsers */
+      url("https://msyagami.github.io/faire-web-app/fonts/Charlie_Zonk/CharlieZonk-wamP.woff2") format("woff2"); /* Modern Browsers */
     font-weight: normal;
     font-style: normal;
   }
