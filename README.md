@@ -1,2 +1,2 @@
 # faire-todo-app
- A To-do wep application
+ A To-do web application. Easy to use.
