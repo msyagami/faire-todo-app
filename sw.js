@@ -7,7 +7,7 @@ const assets = [
   'https://msyagami.github.io/faire-web-app/js/particles.min.js',
   'https://msyagami.github.io/faire-web-app/js/app.js',
   'https://msyagami.github.io/faire-web-app/media/favicon.ico',
-  'http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js',
+  'https://msyagami.github.io/faire-web-app/js/vg_particles.js',
   'https://msyagami.github.io/faire-web-app/fonts/Charlie_Zonk/CharlieZonk-wamP.eot',
   'https://msyagami.github.io/faire-web-app/fonts/Charlie_Zonk/CharlieZonk-wamP.otf',
   'https://msyagami.github.io/faire-web-app/fonts/Charlie_Zonk/CharlieZonk-wamP.svg',
