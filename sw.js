@@ -2,11 +2,11 @@ const staticCacheName = 'site-static-v3';
 const dynamicCacheName = 'site-dynamic-v2';
 const assets = [
   '/',
-  '/index.html',
-  '/css/styles.min.css',
-  '/js/particles.min.js',
-  '/js/app.js',
-  '/media/favicon.ico',
+  'https://msyagami.github.io/faire-web-app/index.html',
+  'https://msyagami.github.io/faire-web-app/css/styles.min.css',
+  'https://msyagami.github.io/faire-web-app/js/particles.min.js',
+  'https://msyagami.github.io/faire-web-app/js/app.js',
+  'https://msyagami.github.io/faire-web-app/media/favicon.ico',
   'http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js',
   'https://msyagami.github.io/faire-web-app/fonts/Charlie_Zonk/CharlieZonk-wamP.eot',
   'https://msyagami.github.io/faire-web-app/fonts/Charlie_Zonk/CharlieZonk-wamP.otf',
