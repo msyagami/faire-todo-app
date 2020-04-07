@@ -4,12 +4,12 @@
     "description": "Faire, a productivity web application.",
     "icons": [
       {
-        "src": "/media/faire_192.png",
+        "src": "https://msyagami.github.io/faire-web-app/media/faire_192.png",
         "type": "image/png",
         "sizes": "192x192"
       },
       {
-        "src": "/media/faire_512.png",
+        "src": "https://msyagami.github.io/faire-web-app/media/faire_512.png",
         "type": "image/png",
         "sizes": "512x512"
       }
