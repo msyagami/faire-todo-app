@@ -12,153 +12,134 @@
     font-display: swap;
   }
 
-html, body {
-    height: 100%;
+
+  html, body {
+    background-color: #eee;
     margin: 0;
-}
+    padding: 0; 
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .center {
+    align-self: center;
+  }
 
-.container{
-    position: absolute;
-    left: 25%;
-    right: 25%;
-    margin: auto;
-    z-index: 100;
-}
-
-.heading{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-.heading-text{
-    font-family: "CharlieZonk";
-    font-size: 256px;
-    text-align: center;
-}
-
-.alpha{
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 3rem;
-}
-
-p {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3rem;
-    text-align: center;
-    justify-content: center;
-}
-
-a{
-    text-align: center;
-    justify-content: center;
-    color: #42a5f5;
-}
-
-#particles-js{
-     position:absolute; 
-     width: 100%; 
-     height: 100%; 
-     background: rgb(255,102,209);
+  .header{
+    background: rgb(255,102,209);
      background: -moz-linear-gradient(45deg, rgba(255,102,209,1) 0%, rgba(243,254,137,1) 100%);
      background: -webkit-linear-gradient(45deg, rgba(255,102,209,1) 0%, rgba(243,254,137,1) 100%);
      background: linear-gradient(45deg, rgba(255,102,209,1) 0%, rgba(243,254,137,1) 100%);
      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff66d1",endColorstr="#f3fe89",GradientType=1);
-     background-repeat: no-repeat; 
-     background-size: cover; 
-     background-position: 50% 50%; }
+     animation: color-rotate 300s;
+     animation-iteration-count: infinite; 
+     animation-direction: alternate;
+  }
+  
+  .flow-right {
+    display: flex;
+    justify-content: space-around;
+  }
 
-@media screen and (max-width: 499px) {
-    
-    html, body {
-        height: 100%;
-        margin: 0;
-    }
-    
-    .container{
-        position: absolute;
-        left: 25%;
-        right: 25%;
-        margin: auto;
-        z-index: 100;
-    }
-    
-    .heading{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-    }
-    
-    .heading-text{
-        font-family: "CharlieZonk";
-        font-size: 64px;
-        text-align: center;
-    }
-    
-    .alpha{
-        font-family: 'IBM Plex Sans', sans-serif;
-        font-size: 1.5rem;
-    }
-    
-    p {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 1.5rem;
-        text-align: center;
-        justify-content: center;
-    }
-    
-    a{
-        text-align: center;
-        justify-content: center;
-        color: #42a5f5;
-    }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  .container {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: white;
+    height: 100vh;
+  }
 
+.title{
+    font-family: 'CharlieZonk';
+    font-size: 144px;
+    text-align: center;
+    padding-top: 2.5vh;
 }
 
-@media screen and (max-width: 2558px) {
-    html, body {
-        height: 100%;
-        margin: 0;
-    }
-    
-    .container{
-        position: absolute;
-        left: 25%;
-        right: 25%;
-        margin: auto;
-        z-index: 100;
-    }
-    
-    .heading{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-    }
-    
-    .heading-text{
-        font-family: "CharlieZonk";
-        font-size: 144px;
-        text-align: center;
-    }
-    
-    .alpha{
-        font-family: 'IBM Plex Sans', sans-serif;
-        font-size: 2rem;
-    }
-    
-    p {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 2rem;
-        text-align: center;
-        justify-content: center;
-    }
-    
-    a{
-        text-align: center;
-        justify-content: center;
-        color: #42a5f5;
-    }
+.alpha{
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 2rem;
 }
+  
+  .input {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 1vh;
+    padding: 1vh 6vw;
+  }
+  
+  .todo-list {    
+    margin-top: 20px;
+    padding: 20px;
+    -ms-overflow-style: none;
+  }  
+
+  .todo-container{
+    width: auto;
+    min-height: 48px;
+    position: relative;
+    border-bottom: 1px solid #000;
+    list-style: none;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+  }
+  .todo-container i.co{
+    position: absolute;
+    font-size: 25px;
+    padding-left:5px;
+    left:15px;
+    top:10px;
+  }
+  .todo-container i.co:hover{
+    cursor: pointer;
+  }
+  .fa-check-circle{
+    color:#6eb200;
+  }
+  .todo-container p.text{
+    position: absolute;
+    padding:0;
+    margin:0;
+    font-size: 20px;
+    left:60px;
+    top:10px;
+    max-width:285px;
+  }
+  .strikethrough{
+    text-decoration: line-through;
+    color : #ccc;
+  }
+  .todo-container i.de{
+    position: absolute;
+    font-size: 25px;
+    right:15px;
+    top:10px;
+  }
+  .todo-container i.de:hover{
+    color:#af0000;
+    cursor: pointer;  
+  }
+
+  .todo-container:first-of-type{
+    border-top: 1px solid #000;
+  }
+  
+  @keyframes color-rotate {
+    from {
+        filter: hue-rotate(0deg);
+    }
+    to {
+        filter: hue-rotate(720deg);
+    }
+  }
+  
+  
