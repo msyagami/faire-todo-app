@@ -29,11 +29,11 @@ function loadList(arr){
   })
 }
 
-//clear button
-// clear.addEventListener("click", function(){
-//   localStorage.clear()
-//   location.reload()
-// })
+// clear button
+clear.addEventListener("click", function(){
+  localStorage.clear()
+  location.reload()
+})
 
 
 function todoList(toDo, id, fin, bin) {
@@ -100,14 +100,3 @@ list.addEventListener("click", function(evt){
    //add to localStorage
    localStorage.setItem("TODO", JSON.stringify(lists))
 })
-
-    function updatePage() {
-        elements.count.textContent = todoList.length;
-        elements.uncheckedCount.textContent = todoList.uncheckedCount;
-    }
-    
-    // source data and give to todolist
-    todoList.data = todoList;
-    todoList.each(lists.length); // display existing
-    updatePage();
-    

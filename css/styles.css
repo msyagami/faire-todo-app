@@ -70,10 +70,14 @@
   font-size: 2rem;
 }
   
-  .input {
+  #input {
     font-family: 'Montserrat', sans-serif;
     margin-top: 1vh;
-    padding: 1vh 6vw;
+    padding: 1vh;
+    padding-right: 15vh;
+    border: 1px solid #ff66d1;
+    border-radius: 1em;
+    position: relative;
   }
   
   .todo-list {    
@@ -118,6 +122,15 @@
     text-decoration: line-through;
     color : #ccc;
   }
+
+::-webkit-input-placeholder { 
+  text-align: left; 
+}
+
+input:-moz-placeholder { 
+  text-align: left; 
+}
+
   .todo-container i.de{
     position: absolute;
     font-size: 25px;
@@ -133,6 +146,23 @@
     border-top: 1px solid #000;
   }
   
+  .clear{
+    width : 32px;
+    height: 32px;
+    position: absolute;
+    right:32px;
+    top: 32px;
+  }
+
+  .clear i{
+    font-size: 32px;
+    color: #000;
+  }
+  .clear i:hover{
+    cursor: pointer;
+    transform: rotate(-45deg);
+  }
+
   @keyframes color-rotate {
     from {
         filter: hue-rotate(0deg);
