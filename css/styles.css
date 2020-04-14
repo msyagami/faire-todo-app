@@ -69,7 +69,7 @@ a{
      background-size: cover; 
      background-position: 50% 50%; }
 
-@media screen and (max-width: 499px) {
+@media screen and (max-width: 312px) {
     
     html, body {
         height: 100%;
