@@ -43,6 +43,7 @@
   .flow-right {
     display: flex;
     justify-content: space-around;
+    font-size: 1.5vh;
   }
 
   ::-webkit-scrollbar {
@@ -60,24 +61,25 @@
 
 .title{
     font-family: 'CharlieZonk';
-    font-size: 144px;
+    font-size: 15vmin;
     text-align: center;
     padding-top: 2.5vh;
 }
 
 .alpha{
   font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 2rem;
+  font-size: 3vmin;
 }
   
   #input {
     font-family: 'Montserrat', sans-serif;
     margin-top: 1vh;
     padding: 1vh;
-    padding-right: 15vh;
-    border: 1px solid #ff66d1;
+    padding-right: 3.5vh;
+    border: 1px solid #000;
     border-radius: 1em;
-    position: relative;
+    position: static;
+    outline: none;
   }
   
   .todo-list {    
@@ -88,7 +90,7 @@
 
   .todo-container{
     width: auto;
-    min-height: 48px;
+    min-height: 5vmin;
     position: relative;
     border-bottom: 1px solid #000;
     list-style: none;
@@ -98,7 +100,7 @@
   }
   .todo-container i.co{
     position: absolute;
-    font-size: 25px;
+    font-size: 3.2vmin;
     padding-left:5px;
     left:15px;
     top:10px;
@@ -113,10 +115,11 @@
     position: absolute;
     padding:0;
     margin:0;
-    font-size: 20px;
-    left:60px;
-    top:10px;
+    font-size: 2.5vmin;
+    left:8vmin;
+    top:1vmin;
     max-width:285px;
+    overflow: none;
   }
   .strikethrough{
     text-decoration: line-through;
@@ -133,9 +136,9 @@ input:-moz-placeholder {
 
   .todo-container i.de{
     position: absolute;
-    font-size: 25px;
-    right:15px;
-    top:10px;
+    font-size: 3vmin;
+    right:1.5vmin;
+    top:1vmin;
   }
   .todo-container i.de:hover{
     color:#af0000;
