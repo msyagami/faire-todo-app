@@ -1,5 +1,5 @@
-const staticCacheName = 'site-static-v3';
-const dynamicCacheName = 'site-dynamic-v2';
+const staticCacheName = 'site-static';
+const dynamicCacheName = 'site-dynamic';
 const assets = [
   '/',
   'https://msyagami.github.io/faire-web-app/index.html',
@@ -67,7 +67,7 @@ self.addEventListener('fetch', evt => {
       });
     }).catch(() => {
       if(evt.request.url.indexOf('.html') > -1){
-        return caches.match('/pages/fallback.html');
+        return caches.match('https://msyagami.github.io/faire-beta/fallback.html');
       } 
     })
   );

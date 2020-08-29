@@ -1,10 +1,6 @@
 const clear = document.querySelector('.clear')
-const theDate = document.getElementById('date')
 const list = document.getElementById('todo-list')
 const input = document.getElementById('input')
-const itemCountSpan = document.getElementById('item-count')
-const uncheckedCountSpan = document.getElementById('unchecked-count')
-const footer = document.getElementById('.footer')
 
 //classes
 const check = "fa-check-circle"
@@ -33,20 +29,12 @@ function loadList(arr){
   })
 }
 
-//clear button
+// clear button
 clear.addEventListener("click", function(){
   localStorage.clear()
   location.reload()
 })
 
-
-function newTodo(){
-}
-
-const options = {weekday: "long", month: "long", day:"numeric", year: "numeric"}
-const today = new Date()
-
-theDate.innerHTML = today.toLocaleDateString("en-US", options)
 
 function todoList(toDo, id, fin, bin) {
 
@@ -55,7 +43,7 @@ function todoList(toDo, id, fin, bin) {
   const FIN = fin ? check : unCheck
   const strike = fin ? strikethrough : ""
   
-  const item = `<li class="item">
+  const item = `<li class="todo-container">
                 <i class="far ${FIN} co" job="complete" id="${id}"></i>
                 <p class="text ${strike}">${toDo}</p>
                 <i class="fas fa-trash de" job="delete" id="${id}"></i>

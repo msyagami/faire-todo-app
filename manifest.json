@@ -1,22 +1,27 @@
 {
-  "name": "Faire",
-  "short_name": "Faire",
-  "description": "Faire, a productivity web application.",
-  "icons": [
-    {
-      "src": "https://msyagami.github.io/faire-web-app/media/faire_192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "https://msyagami.github.io/faire-web-app/media/faire_512.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    }
-  ],
-  "start_url": "https://msyagami.github.io/faire-web-app/",
-  "background_color": "#f3fe89",
-  "display": "standalone",
-  "scope": "https://msyagami.github.io/faire-web-app/",
-  "theme_color": "#f3fe89"
-}
+    "name": "Faire",
+    "short_name": "Faire",
+    "description": "Faire, a new way to be productive.",
+    "icons": [
+      {
+        "src": "https://msyagami.github.io/faire-web-app/media/faire_192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "https://msyagami.github.io/faire-web-app/media/faire_256.png",
+        "type": "image/png",
+        "sizes": "256x256"
+      },
+      {
+        "src": "https://msyagami.github.io/faire-web-app/media/faire_512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "https://msyagami.github.io/faire-web-app/",
+    "background_color": "#FF1ABA",
+    "display": "standalone",
+    "scope": "https://msyagami.github.io/faire-web-app/",
+    "theme_color": "#FF1ABA"
+  }
